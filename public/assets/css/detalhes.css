@@ -1,0 +1,23 @@
+.noticia-detalhe{
+    background-color: #1c1c1c;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+}
+
+.detalhe-img{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.info-noticia{
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.conteudo-noticia{
+    font-size: 1.1rem;
+    line-height: 1.8;
+}

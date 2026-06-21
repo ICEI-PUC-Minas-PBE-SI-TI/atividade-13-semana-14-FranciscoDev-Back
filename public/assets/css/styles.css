@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+header {
+  background: green;
+  color: white;
+  padding: 20px;
+}
+
+.menu {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  
+}
+
+.menu a {
+  color: rgb(73, 161, 0);
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.noticias {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-img{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.carousel-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.destaque-card{
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.destaque-card:hover{
+    transform: scale(1.01);
+}
+
+.carousel-img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.destaque-card h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.destaque-card p{
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.carousel-control-prev{
+    left: -100px;
+}
+
+.carousel-control-next{
+    right: -100px;
+}
+
+
+.destaque-card .row{
+    min-height: 500px;
+}
+
+#carouselExample{
+    width: 100%;
+}
+
+#carouselNoticias{
+    width: 100%;
+}
+
+.carousel-item{
+    width: 100%;
+}
+
+.destaque-card{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.destaque-card .row{
+    min-height: 500px;
+    width: 100%;
+}
+
+.carousel-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+@media(max-width: 768px){
+
+    .destaque-card .row{
+        flex-direction: column;
+    }
+
+    .carousel-img{
+        height: 250px;
+    }
+
+    .destaque-card h2{
+        font-size: 1.5rem;
+    }
+
+    .carousel-control-prev{
+        left: 0;
+    }
+
+    .carousel-control-next{
+        right: 0;
+    }
+
+}
+
+.menuTimes{
+    background-color: #1c1c1c;
+}
+
+.menuTimes .dropdown-item{
+    color: white;
+}
+
+.menuTimes .dropdown-item:hover{
+    background-color: green;
+    color: white;
+}
+
+.logoSite{
+    width: 180px;
+    height: auto;
+}
+
+header{
+    background-color: #111;
+    border-bottom: 2px solid rgb(0, 58, 0);
+}
+
+.navbar .container-fluid{
+    justify-content: flex-start;
+}
