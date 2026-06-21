@@ -9,15 +9,15 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Francisco Leite de Jesus
+- Matrícula: 927761
+- Proposta de projeto escolhida: pagina de noticias de futebol
+- Breve descrição sobre seu projeto: O projeto é uma pagina de noticias que mostra as principais noticias do mundo do futebol.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nesta etapa>>
+<< Nesta etapa foi implementada uma visualização dinâmica de dados utilizando a biblioteca Chart.js. Os dados são consumidos de uma API simulada (JSON Server) e exibidos em forma de gráfico de barras, representando as notícias cadastradas no sistema. A interface permite atualização dinâmica dos dados conforme operações de CRUD realizadas anteriormente.>>
 
-<<  COLOQUE A IMAGEM DA TELA 1 AQUI >>
+<<  ![print 1](public/img/print%201.jpeg)>>
 
-<<  COLOQUE A IMAGEM DA TELA 2 AQUI >>
+<<  ![print 2](public/img/print%202.jpeg)>>

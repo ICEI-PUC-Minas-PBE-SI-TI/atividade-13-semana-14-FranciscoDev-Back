@@ -169,6 +169,7 @@
 const lista = document.getElementById("listaNoticias")
 const carousel = document.getElementById("carouselNoticias")
 
+let noticias = [];
 function mostrarNoticias(noticiasFiltradas){
 
   lista.innerHTML = ""
@@ -246,7 +247,12 @@ function mostrarNoticias(noticiasFiltradas){
   })
 }
 
-mostrarNoticias(dados.noticias)
+fetch("http://localhost:3000/noticias")
+  .then(response => response.json())
+  .then(dados => {
+    noticias = dados;
+    mostrarNoticias(noticias);
+  });
 
 const itensMenu = document.querySelectorAll(".dropdown-item")
 
@@ -258,7 +264,7 @@ itensMenu.forEach(item => {
 
     const timeSelecionado = this.innerText
 
-    const noticiasFiltradas = dados.noticias.filter(noticia => 
+    const noticiasFiltradas = noticias.filter(noticia => 
       noticia.time === timeSelecionado
     )
 

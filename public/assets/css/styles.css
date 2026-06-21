@@ -210,3 +210,8 @@ header{
 .navbar .container-fluid{
     justify-content: flex-start;
 }
+
+#graficoNoticias {
+  width: 100% !important;
+  height: 400px !important;
+}

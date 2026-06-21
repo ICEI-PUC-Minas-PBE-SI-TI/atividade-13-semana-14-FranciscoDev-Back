@@ -1,18 +1,113 @@
 {
-  "usuarios": [
+  "noticias": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Palmeiras acerta contratação de Alexander Barboza",
+      "descricao": "O zagueiro assina com o verdão até dezembro de 2026.",
+      "conteudo": "O Palmeiras oficializou a contratação do zagueiro argentino Alexander Barboza...",
+      "campeonato": "Brasileirão Série A",
+      "data": "20/05/2026",
+      "autor": "Francisco",
+      "time": "Palmeiras",
+      "assunto": "Transferências",
+      "imagem": "img/Barboza-Palmeiras.webp",
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "Apresentação oficial",
+          "imagem": "Barboza-Palmeiras.webp"
+        }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    }
+      "id": 2,
+      "titulo": "Hugo Souza desabafa após ficar de fora da lista de Ancelotti.",
+      "descricao": "O goleiro faz desabafo após entrevista e gera comoção da torcida",
+      "conteudo": "O goleiro Hugo Souza expressou publicamente seu sentimento de frustração...",
+      "campeonato": "Brasileirão Série A",
+      "data": "22/05/2026",
+      "autor": "Francisco",
+      "time": "Corinthians",
+      "assunto": "Entrevistas",
+      "imagem": "img/hugo-souza-fala-apos-ausencia-na-copa.jpg",
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "Apresentação oficial",
+          "imagem": "Barboza-Palmeiras.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Guardiola deixa Manchester City após 10 anos.",
+      "descricao": "O Manchester City confirma (22) a saída de Pep Guardiola após 10 temporadas no comando da equipe.",
+      "conteudo": "O Manchester City confirmou oficialmente a saída do técnico Pep Guardiola...",
+      "campeonato": "Premier League",
+      "data": "22/05/2026",
+      "autor": "Francisco",
+      "time": "Manchester City",
+      "assunto": "Transferências",
+      "imagem": "img/pep-saida.webp",
+      "destaque": true,
+      "fotos": [
+        {
+          "titulo": "Apresentação oficial",
+          "imagem": "Barboza-Palmeiras.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Pedido de anulação de jogo do Santos é negado pelo STJD",
+      "descricao": "O STJD negou o pedido feito pelo Santos de anulação do jogo contra o Coritiba.",
+      "conteudo": "O Superior Tribunal de Justiça Desportiva rejeitou por unanimidade o pedido...",
+      "campeonato": "Brasileirão Serie A",
+      "data": "22/05/2026",
+      "autor": "Francisco",
+      "time": "Santos",
+      "assunto": "Arbitragem",
+      "imagem": "img/Santos-coxa.jpg",
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "Apresentação oficial",
+          "imagem": "Barboza-Palmeiras.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "CR7 Conquista primeiro título importante pelo Al Nassr",
+      "descricao": "Na última quinta-feira (21), Cristiano Ronaldo conquistou seu primeiro título importante pelo AL Nassr, guardando 2 gols no jogo decisivo.",
+      "conteudo": "Cristiano Ronaldo conquistou seu primeiro título oficial pelo Al-Nassr...",
+      "campeonato": "Campeonato Saudita",
+      "data": "22/05/2026",
+      "autor": "Francisco",
+      "time": "Al Nassr",
+      "assunto": "Título Saudita",
+      "imagem": "img/FotoJet-55-1.webp",
+      "destaque": false,
+      "fotos": [
+        {
+          "titulo": "Apresentação oficial",
+          "imagem": "Barboza-Palmeiras.webp"
+        }
+      ]
+    },
+    {
+  "id": 6,
+  "titulo": "Flamengo anuncia novo reforço para a temporada",
+  "descricao": "Clube confirma contratação de destaque internacional",
+  "conteudo": "O Flamengo oficializou a chegada de um novo jogador...",
+  "campeonato": "Brasileirão Série A",
+  "data": "21/06/2026",
+  "autor": "Francisco",
+  "time": "Flamengo",
+  "assunto": "Transferências",
+  "imagem": "img/flamengo.jpg",
+  "destaque": false,
+  "fotos": []
+}
   ]
 }
